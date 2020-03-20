@@ -5,9 +5,14 @@ Moment to moment we are faced with an incoming flurry of complex information. Ho
 	The current work seeks to replicate and extend the work of Lake et al. (2015).They compare the performance of 3 different deep convolutional neural network architectures (OverFeat, AlexNet, GoogLeNet) in replicating human typicality judgements. Here, we consider the ResNet architecture along with AlexNet, and GoogLeNet. Along with using the outputs of these networks to compare to human typicality ratings, we also extract feature representations of exemplars to see if the networks can replicate similarity ratings between exemplars. 
   
 ## Methods
+
 Human typicality and similarity ratings from 7 different categories were obtained from the Leuven Concept Database (De Deyne et al. 2008). 3 architectures were tested on their ability to predict these ratings. 
 
-**Human behavioral data**
+<img src="ty.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+**Human behavioral data** <br>
 From 112 undergraduates at the University of Leuven, typicality ratings and similarity ratings of 5-33 exemplars were obtained from 7 categories: birds, clothing, fish, fruit, insects, utensils, and mammals. Importantly, this dataset includes categories of both artifacts and natural kinds. There is evidence to suggest that artifacts and natural kinds may be represented in fundamentally different ways (e.g., Diesendruck & Gelman, 1999; Estes, 2003; Keil, 1989; Malt & Johnson, 1992). 
 
 *Typicality Ratings*
@@ -22,4 +27,6 @@ We used three different architectures: AlexNet, GoogleNet, and ResNet18. AlexNet
 Images used for typicality and similarity judgements were acquired by the following process. For each exemplar in the dataset an image was chosen via Google search. Images were chosen such that there was a single animal or object in clear view. To obtain an exemplar’s typicality rating, its image was fed into the network and the correct label’s probability was taken as the rating. A Spearman rank correlation was performed on the network’s typicality ratings and the average human typicality ratings. 
 
  To obtain pairwise within-category exemplar ratings, each exemplar’s feature embedding was extracted from the network and the cosine similarity between the feature embeddings was taken. Feature embeddings from AlexNet and GoogleNet were extracted from the final max pooling layers. Feature embeddings from ResNet18 were extracted from the average pooling layer. A Spearman rank correlation was performed on the network’s cosine similarity between exemplars and the average human pairwise exemplar similarity ratings.  
+ 
+ 
 
