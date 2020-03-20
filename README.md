@@ -21,7 +21,7 @@ Human typicality and similarity ratings from 7 different categories were obtaine
 <p>
 	
 **Human behavioral data** <br>
-From 112 undergraduates at the University of Leuven, typicality ratings and similarity ratings of 5-33 exemplars were obtained from 14 categories in total but the only the following seven will be focused on here: birds, clothing, fish, fruit, insects, utensils, and mammals. Importantly, this dataset includes categories of both artifacts and natural kinds. There is evidence to suggest that artifacts and natural kinds may be represented in fundamentally different ways (e.g., Diesendruck & Gelman, 1999; Estes, 2003; Keil, 1989; Malt & Johnson, 1992). 
+From 112 undergraduates at the University of Leuven, typicality ratings and similarity ratings of 5-33 exemplars were obtained from 14 categories in total but the only the following seven will be focused on here: birds, clothing, fish, fruit, insects, utensils, and mammals. Importantly, this dataset includes categories of both artifacts and natural kinds. There is evidence to suggest that artifacts and natural kinds may be represented in fundamentally different ways.
 
 *Typicality Ratings*
 Participants were given a list of exemplars with the category label printed at the top of the list. They were asked to indicate how typical, on a scale of 1 (very atypical) to 20 (very typical), each item was of the category printed at the top of the page.
